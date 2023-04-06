@@ -17,7 +17,7 @@ stages:
     pool:
       vmImage: 'Ubuntu-latest'
     # creates an environment if it doesn't exist
-    environment: 'dev123'
+    environment: 'dev'
     strategy:
       runOnce:
         deploy:
