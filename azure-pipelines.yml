@@ -13,7 +13,7 @@ pool:
   vmImage: ubuntu-latest
 
 stages:
-  - stage: deploy
+- stage: deploy
   jobs:
   - deployment: DeployWeb
     displayName: deploy Web App
